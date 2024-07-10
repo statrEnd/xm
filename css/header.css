@@ -1,0 +1,314 @@
+.h-top{
+  height:40px ;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.htop-left{
+  float: left;
+}
+
+.h-top li{
+  position: relative;
+  float: left;
+  padding: 0 8px;
+  height: 40px;
+}
+.h-top li:first-child{
+  padding-left: 0;
+}
+.h-top li+li:after{
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 15px;
+  width: 1px ;
+  height: 10px;
+  background-color: #666;
+}
+.h-top li > a{
+  color: #bbb;
+  font-size: 12px;
+}
+
+.h-top li > a:hover{
+  color: #ddd;
+}
+
+
+.download-more{
+  overflow: hidden;
+  z-index: 100;
+  position: absolute;
+  top: 40px;
+  left: -25px;
+  width: 125px;
+  height: 0;
+  background-color: #fff;
+  border: 1px solid #eee;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  transition: height .2s;
+}
+.download-more a{
+  display: block;
+  height:146px;
+}
+.download-more img{
+  width: 90px;
+  margin-top: 20px;
+}
+
+.download:before{
+  display: none;
+  position: absolute;
+  bottom:0;
+  left: 25px;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top: 0;
+  border-bottom-color: #fff;
+}
+
+.download:hover:before{
+  display: block;
+}
+
+.download:hover .download-more{
+  height: 150px;
+}
+.download:hover > a{
+  color: #ddd;
+}
+
+.htop-right{
+  float: right;
+}
+.htop-right ul{
+  float: left;
+  margin-right: 15px;
+}
+
+.shopping-car{
+  position: relative;
+  float: left;
+}
+
+
+.shopping{
+  position: relative;
+  z-index: 101;
+  overflow: hidden;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  background-color: #424242;
+
+}
+.shopping a{
+  display: block;
+  color: #bbb;
+  font-size: 12px;
+}
+.icon-gouwuche{
+  vertical-align: -1px;
+  font-size: 20px;
+}
+
+.shopping-more{
+  z-index: 100;
+  overflow: hidden;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 316px;
+  height: 0;
+  background-color: #fff;
+  font-size: 12px;
+  color: #666;
+  line-height: 100px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  transition: height .2s;
+}
+.shopping-car:hover .shopping-more{
+  height: 100px;
+}
+.shopping-car:hover .shopping{
+  background-color: #fff;
+
+}
+
+.shopping-car:hover a{
+  color: #ff6a00;
+}
+
+.logo{
+  float: left;
+  padding-top: 22px;
+}
+
+.logo img{
+  width: 56px;
+}
+
+.nav{
+  float: left;
+  margin-left: 180px;
+  margin-top: 12px;
+}
+.nav li{
+  float: left;
+}
+.nav-main a{
+  display: block;
+  padding: 25px 10px 0;
+  font-size: 16px;
+
+}
+
+.nav-more{
+  overflow: hidden;
+  position: absolute;
+  z-index: 88;
+  width: 100%;
+  height: 0;
+  top: 100px;
+  left: 0;
+  background-color: #fff;
+  transition: height .2s;
+
+}
+
+.h-nav{
+  position: relative;
+  height: 100px;
+  background-color: #fff;
+}
+
+
+.nav-more li{
+  position: relative;
+  width: 182px;
+  padding: 35px 10px 0;
+  
+}
+.nav-more a{
+  display: block;
+  text-align: center;
+}
+
+.nav-info{
+  margin-top: 15px;
+  font-size: 12px;
+}
+.nav-info .price{
+  margin-top: 3px;
+  color: #ff6a00;
+}
+
+.nav-more li+li:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 35px;
+  width: 1px ;
+  height: 100px;
+  background-color: #ddd;
+}
+.nav-item{
+  height: 88px;
+}
+.nav-item:hover .nav-more{
+  height: 230px;
+  border-top: 1px solid #eee;
+  box-shadow: 0 10px 10px rgba(0,0,0,.1)
+}
+
+.search{
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.search input{
+  float: left;
+  width: 242px;
+  height: 48px;
+  border: 1px solid #eee;
+  outline: none;
+  text-indent: 10px;
+  color: #666;
+  transition: border-color .2s;
+}
+
+.search-btn{
+  float: left;
+  width: 50px;
+  height: 48px;
+  border: 1px solid #eee;
+  border-left: 0;
+  text-align: center;
+  line-height: 48px;
+  transition: border-color .2s, background-color .2s,color .2s;
+}
+
+.search-btn .icon-ai219{
+  font-size: 26px;
+  color: #666;
+}
+
+.search-hot{
+  display: none;
+  z-index: 50;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 242px;
+  border: 1px solid #ff6a00;
+  border-top: 0;
+  background-color: #fff;
+}
+
+.search-hot a{
+  display: block;
+  height: 30px;
+  padding-left: 15px;
+
+  line-height: 30px;
+  color: #555;
+  font-size: 12px;
+}
+
+.search:hover input{
+  border-color: #bbb;
+}
+.search:hover .search-btn{
+  border-color: #bbb;
+}
+
+.search .search-btn:hover{
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.search-btn:hover .icon-ai219{
+  color: #fff;
+}
+.search input:focus{
+  border-color: #ff6a00;
+}
+.search input:focus + .search-btn{
+  border-color: #ff6a00;
+}
+.search input:focus ~ .search-hot{
+  display: block;
+}
+.search-hot a:hover{
+  background-color: #f8f8f8;
+}

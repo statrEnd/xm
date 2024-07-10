@@ -1,0 +1,157 @@
+.aside{
+  position: fixed;
+  bottom: 70px;
+  right: 0;
+  width: 80px;
+}
+.aside-item{
+  position: relative;
+  padding: 16px 0 13px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: #666;
+
+}
+.aside-item i{
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  background-size: contain;
+
+}
+.aside-item1 i{
+  background-image: url(../imgs/aside/06.png);
+}
+
+.aside-item p{
+  margin-top: 8px;
+}
+
+.aside-item2 i{
+  background-image: url(../imgs/aside/01.png);
+}
+.aside-item3 i{
+  background-image: url(../imgs/aside/02.png);
+}
+.aside-item4 i{
+  background-image: url(../imgs/aside/03.png);
+}
+.aside-item5 i{
+  background-image: url(../imgs/aside/04.png);
+}
+.aside-item6 i{
+  background-image: url(../imgs/aside/05.png);
+}
+.aside-item6{
+  margin-top: 20px;
+}
+.aside-hidden1{
+  display: none;
+  position: absolute;
+  top: 0;
+  right:120%;
+  width: 130px;
+  padding: 20px 0;
+  background-color: #fff;
+  text-align: center;
+}
+.aside-hidden1 img{
+  width: 105px ;
+}
+.aside-hidden1 div{
+  width: 75px;
+  margin: 12px auto 0;
+}
+
+.triangle:after{
+  
+  content: "";
+  position: absolute;
+  top:15%;
+  right: -5px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-left-color:#fff ;
+  border-right: 0;
+}
+
+.aside-item1:hover .aside-hidden1{
+  display: block;
+}
+
+.aside-hidden{
+  display: none;
+  position: absolute;
+  right: 120%;
+  top: 0;
+  width: 72px;
+  height: 28px;
+  background-color: #fff;
+  line-height: 28px;
+}
+
+
+.aside-item:hover p{
+  color: #ff6700;
+}
+
+.aside-item1:hover i{
+  background-image: url(../imgs/aside/0606.png);
+}
+.aside-item2:hover i{
+  background-image: url(../imgs/aside/0101.png);
+}
+.aside-item3:hover i{
+  background-image: url(../imgs/aside/0202.png);
+}
+.aside-item4:hover i{
+  background-image: url(../imgs/aside/0303.png);
+}
+.aside-item5:hover i{
+  background-image: url(../imgs/aside/0404.png);
+}
+.aside-item6:hover i{
+  background-image: url(../imgs/aside/0505.png);
+}
+/* 浏览器宽度小于1460时  */
+@media (max-width:1460px){
+  .aside{
+    width: 26px;
+    
+  }
+  .aside-item{
+    padding:8px 0 9px;
+  }
+  .aside-item i{
+    width:20px ;
+    height: 20px;
+
+  }
+  .aside-item p{
+    display: none;
+  }
+
+  .aside-item:hover .aside-hidden{
+    display: block;
+  
+  }
+
+  
+}
+
+/* 浏览器宽度小于1460时 大于1300 */
+@media (min-width:1300px) and (max-width:1460px){
+  .aside{
+    left: 50%;
+    margin-left: 610px;
+  }
+}
+@media (max-width:1300px){
+  .aside{
+    right: 0;
+  }
+
+}

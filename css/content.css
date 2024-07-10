@@ -1,0 +1,180 @@
+.con-streamer{
+  margin-top: 25px;
+}
+
+.con-item{
+  margin-top: 35px;
+}
+
+.con-title{
+  margin-bottom: 15px;
+}
+
+.con-title h3{
+  float: left;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.con-more{
+  float: right;
+}
+.con-more a{
+  font-size: 16px;
+  color: #666;
+}
+.con-more span{
+  margin-left: 28px;
+  transition: color .2s;
+}
+
+.con-more i{
+  margin-left:6px;
+  font-size: 20px;
+  vertical-align: -2px;
+  transition: color .2s;
+  color: #aaa;
+}
+.con-more a:hover{
+  color: #ff6700;
+}
+.con-more a:hover i{
+  color: #ff6700;
+}
+
+.conlist-left{
+  float: left;
+  width: 235px;
+}
+
+.con-item1 .active{
+  padding-bottom: 4px;
+  color: #ff6700;
+  border-bottom: 2px solid #ff6700;
+}
+
+.con-item1 .conlist-left li:nth-child(2){
+  margin-top: 13px;
+}
+li.watch-more{
+  background-color: transparent;
+}
+.watch-more li{
+  height: 143px;
+  margin-left: 0;
+  background-color: #fff;
+  
+  
+}
+.wm-top a{
+  padding-top: 30px;
+  height: 113px;
+  padding-left: 30px;
+}
+
+.wm-info{
+  float: left;
+  width: 88px;
+  margin-top: 10px;
+  text-align-last: left;
+  color: #444;
+}
+
+.wm-info p{
+  color: #ff6700;
+  margin-top: 6px;
+}
+
+.wm-img{
+  float: left;
+  margin-left: 15px;
+
+}
+
+.wm-img img{
+  width: 80px;
+  height: 80px;
+}
+
+.wm-icon a{
+  padding-top: 50px;
+  height: 93px;
+  padding-left: 30px;
+}
+
+.wmicon-info{
+  float: left;
+  text-align: left;
+}
+.wmicon-info div{
+  color: #000;
+  font-size: 18px;
+}
+
+.wmicon-info p{
+  color: #ccc;
+  font-size: 12px;
+}
+
+.wmicon-img{
+  float: left;
+  margin-left: 45px;
+}
+.wmicon-img img{
+  width: 50px;
+  height: 50px;
+}
+
+.con-video li{
+  float: left;
+  width: 296px;
+  height: 285px;
+  background-color: #fff;
+}
+.video{
+  position: relative;
+}
+.video-btn{
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  width: 32px;
+  height: 20px;
+  border: 2px solid #fff;
+  background-color: rgba(0,0,0,.6);
+  border-radius: 20px;
+  transition: background-color .2s;
+}
+.video-btn:after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 4px;
+  width: 0;
+  height: 0;
+  margin-left: -4px;
+  border: 8px solid transparent;
+  border-left-color:#fff ;
+  border-right: 0;
+  border-top-width: 6px;
+  border-bottom-width: 6px;
+}
+
+.video:hover .video-btn{
+  background-color: #ff6700;
+  border-color: #ff6700;
+}
+.video-info{
+  padding-top: 28px;
+  text-align: center;
+}
+
+.video-info p{
+  margin-top: 7px;
+  font-size: 12px;
+  color: #555;
+}
+
+.con-video li + li{
+  margin-left: 14px;
+}

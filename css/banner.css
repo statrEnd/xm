@@ -1,0 +1,206 @@
+.header-main{
+  background-color: #fff;
+  padding-bottom: 25px;
+}
+
+.banner{
+  position: relative;
+  height: 460px;
+}
+.banner-list li{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner-list img{
+  width: 1226px;
+  height: 460px;
+}
+
+.banner .btn{
+  position: absolute;
+  top:50%;
+  width: 40px;
+  height: 70px;
+  margin-top: -35px;
+  background: url(../imgs/banner/banner-main/icon-dot.png);
+  cursor: pointer;
+}
+
+.banner .left{
+  left: 235px;
+  background-position: -84px 0;
+}
+.banner .right{
+  right: 0;
+  background-position: -125px 0;
+}
+.banner .left:hover{
+  background-position: 0 0;
+}
+.banner .right:hover{
+  background-position: -42px 0;
+}
+.banner .dot{
+  position: absolute;
+  right: 33px;
+  bottom: 25px;
+  width: 90px;
+  height: 10px;
+}
+
+.dot span{
+  float: left;
+  width: 6px;
+  height: 6px;
+  margin-left: 8px;
+  border: #eee solid 2px;
+  background-color:rgba(0,0,0,.5);
+  border-radius: 50%;
+}
+
+.dot .active{
+  background-color: #f2f2f2;
+  border-color:#ccc;
+}
+
+.menu{
+  position: absolute;
+  width: 235px;
+  height: 420px;
+  padding: 20px 0;
+  background-color: rgba(0,0,0,.5);
+  
+}
+.menu-title a{
+  display: block;
+  height: 42px;
+  padding-left: 30px;
+  padding-right: 25px;
+  line-height: 42px;
+  color: #fff;
+  font-size: 14px; 
+}
+.menu-title a span{
+  float: right;
+  font-size: 20px;
+}
+.menu-title a:hover{
+  background-color: #ff6700;
+}
+
+.menu-hidden{
+  display: none;
+  position: absolute;
+  left: 235px;
+  top: 0;
+  height: 458px;
+  width:980px ;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.menu-hidden ul{
+
+  float: left;
+  width: 245px;
+}
+.menu-hidden li a{
+  display: block;
+  padding: 19px 25px;
+  color: #000;
+  font-size: 13px;
+}
+.menu-hidden li img{
+  height: 38px;
+}
+.menu-hidden li div{
+  display: inline-block;
+  vertical-align: middle;
+}
+.menu-hidden li p{
+  display: inline-block;
+}
+.menu-hidden li a:hover{
+  color: #ff6700;
+}
+.menu .item:hover .menu-hidden{
+  display: block;
+}
+
+.banner-recom{
+  margin-top: 15px;
+}
+
+.br-left{
+  float: left;
+  background-color: #5f5750;
+}
+
+.br-left ul{
+  display: flex;
+  width: 235px;
+  height: 170px;
+  flex-wrap: wrap;
+}
+
+.br-left li{
+  position: relative;
+  flex: 1 1 65px;
+  padding: 0 5px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.8;
+}
+.br-left a{
+  display: block;
+  padding-top: 22px;
+  color: #eee;
+}
+.br-left i{
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto 3px;
+  background: url(../imgs/content/01/01.png) 0 0/contain;
+}
+
+.br-left li:before{
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 11px;
+  width: 65px;
+  height: 1px;
+  background-color: #666;
+}
+.br-left li:after{
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  width: 1px;
+  height: 65px;
+  background-color: #666;
+}
+
+.br-left li:hover{
+  opacity: 1;
+}
+
+.br-right{
+  float: left;
+}
+
+.br-right li{
+  float: left;
+  width: 316px;
+  margin-left: 14px;
+  transition: box-shadow .2s;
+}
+.br-right img{
+  width: 100%;
+}
+.br-right li:hover{
+  box-shadow: 0 10px 40px rgba(0,0,0,.2);
+}
